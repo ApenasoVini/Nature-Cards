@@ -6,7 +6,7 @@ Este projeto foi feito com [Create React App](https://react.dev/learn)
 
 <ol>
 <li>Copie o link do repositório</li>
-<li>Abra o terminal e clone a pasta no VSCode</li>
+<li>Abra o terminal e clone a pasta no <i>VSCode</i></li>
 <li>Dê o comando <b>npm i</b> e <b>npm start</b></li>
 </ol>
 
