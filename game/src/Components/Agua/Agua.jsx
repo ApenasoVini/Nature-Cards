@@ -4,7 +4,7 @@ import "./Agua.css"
 
 export default () => {
     return (
-        <div className="Container">
+        <div className="Agua">
             <div className="Background">
                 <p>Água</p>
                 <Icon className="Icon"></Icon>
