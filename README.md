@@ -1,4 +1,4 @@
-# Nature Cards
+# 🀄 Nature Cards
 
 Este projeto foi feito com [Create React App](https://react.dev/learn)
 
@@ -14,10 +14,10 @@ Este projeto foi feito com [Create React App](https://react.dev/learn)
 
 ### Esse projeto possui 4 cartas iniciais:
 
-## `Fogo`
-## `Água`
-## `Ar`
-## `Terra`
+## `Fogo` 🔥
+## `Água` 💧
+## `Ar` 🌪
+## `Terra` 🌄
 
 <div align="center">
 <img alt="logo" src="./logo.png">
