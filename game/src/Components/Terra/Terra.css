@@ -6,4 +6,14 @@
     border-radius: 10px;
     border: 5px solid #327700;
     padding-top: 10px;
+    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 1);
+    transition: all 0.4s;
+}
+
+.Terra:hover {
+    transform: scale(1.1);
+}
+
+.Terra p {
+    margin-bottom: 5px;
 }
