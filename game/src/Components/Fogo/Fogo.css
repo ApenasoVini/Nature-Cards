@@ -1,6 +1,9 @@
 .Fogo {
     text-align: center;
-    background-color: #fc3838;
+    background-color: #da0000;
     height: 45vh;
     width: 15vw;
+    border-radius: 10px;
+    border: 5px solid #9b0000;
+    padding-top: 10px;
 }

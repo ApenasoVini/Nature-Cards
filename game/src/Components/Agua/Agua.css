@@ -1,6 +1,13 @@
 .Agua {
+    padding-top: 10px;
     text-align: center;
-    background-color: #3030f7;
+    background-color: #5757ff;
     height: 45vh;
     width: 15vw;
+    border-radius: 10px;
+    border: 5px solid #0202ff;
+}
+
+.Agua p {
+    margin-bottom: 5px;
 }

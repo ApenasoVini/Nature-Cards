@@ -1,6 +1,9 @@
 .Terra {
     text-align: center;
-    background-color: #532600;
+    background-color: #6b482b;
     height: 45vh;
     width: 15vw;
+    border-radius: 10px;
+    border: 5px solid #327700;
+    padding-top: 10px;
 }
