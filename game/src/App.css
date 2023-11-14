@@ -19,7 +19,7 @@ header {
     .Cards {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 250vh;
         transition: all 0.4s;
     }
 }

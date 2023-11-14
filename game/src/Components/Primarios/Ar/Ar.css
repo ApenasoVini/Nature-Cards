@@ -20,8 +20,8 @@
 
 @media (width < 920px) {
     .Ar {
-        height: 30vh;
-        min-width: 15vw;
+        height: 55vh;
+        min-width: 40vw;
         margin-top: 5px;
     }
 }

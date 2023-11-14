@@ -21,8 +21,8 @@
 
 @media (width < 920px) {
     .Agua {
-        height: 30vh;
-        min-width: 15vw;
+        height: 55vh;
+        min-width: 40vw;
         margin-top: 5px;
     }
 }
