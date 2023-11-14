@@ -9,25 +9,23 @@ import './App.css';
 export default () => (
   <div className="App">
     <header>
-      <nav>
-        <ul className="Lista">
-          <li className="Logo">
-            <img src={Logo} alt="logo" />
-            <figcaption>NATURE CARDS</figcaption>
-          </li>
-          <ul className="Lista">
-            <li className="Topics"><a className="Redirect" href="#aboutUs">Sobre o App</a></li>
-            <li className="Topics"><a className="Redirect" href="#">Cartas</a></li>
-            <li className="Topics"><a className="Redirect" href="#login">Criador</a></li>
-          </ul>
-        </ul>
-      </nav>
+      <div className="Logo">
+        <img src={Logo} alt="logo" />
+        <p>NATURE CARDS</p>
+      </div>
+      <ul>
+        <li className="Topics"><a href="#aboutUs">Sobre o App</a></li>
+        <li className="Topics"><a href="#">Cartas</a></li>
+        <li className="Topics"><a href="#login">Criador</a></li>
+      </ul>
     </header>
-    <div className="Cards">
-      <Agua />
-      <Ar />
-      <Fogo />
-      <Terra />
-    </div>
+    <main>
+      <div className="Cards">
+        <Agua />
+        <Ar />
+        <Fogo />
+        <Terra />
+      </div>
+    </main>
   </div>
 );

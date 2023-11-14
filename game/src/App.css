@@ -1,54 +1,50 @@
 header {
     width: 100%;
     height: 10vh;
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
     background-color: #000;
     color: #fff;
 }
 
-header nav {
-    position: relative;
-    display: block;
-}
-
-.Lista {
-    justify-content: space-between;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    padding: 0 10px;
-}
-
 .Logo {
     display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.Logo figcaption {
-    margin-top: 20px;
-}
-
-header img {
-    margin-top: 20px;
-    width: 30%;
+.Logo img {
+    height: 7vh;
+    width: auto;
     transition: all 0.4s;
 }
 
-header img:hover {
+.Logo img:hover {
     transform: scale(1.1);
 }
 
+.Logo p {
+    margin-left: 5px;
+    margin-top: 13px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
 .Topics {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 70px;
 }
 
-.Redirect {
-    color: #fff;
+.Topics a {
+    color: inherit;
     text-decoration: none;
     transition-duration: 0.5s;
 }
 
-.Redirect:hover {
+.Topics a:hover {
     font-size: 17px;
 }
 
@@ -59,11 +55,11 @@ header img:hover {
     justify-content: space-around;
 }
 
-@media (width < 920px) {
+@media (max-width: 920px) {
     .Cards {
         display: flex;
         flex-direction: column;
-        height: 250vh;
+        height: auto;
         transition: all 0.4s;
     }
 }
