@@ -1,11 +1,55 @@
 header {
     width: 100%;
     height: 10vh;
-    padding: 10px;
     position: absolute;
-    text-align: center;
     background-color: #000;
     color: #fff;
+}
+
+header nav {
+    position: relative;
+    display: block;
+}
+
+.Lista {
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0 10px;
+}
+
+.Logo {
+    display: flex;
+}
+
+.Logo figcaption {
+    margin-top: 20px;
+}
+
+header img {
+    margin-top: 20px;
+    width: 30%;
+    transition: all 0.4s;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+.Topics {
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
+.Redirect {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.Redirect:hover {
+    font-size: 17px;
 }
 
 .Cards {
