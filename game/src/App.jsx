@@ -1,8 +1,8 @@
 import React from 'react';
-import Agua from './Components/Agua/Agua';
-import Ar from './Components/Ar/Ar';
-import Fogo from './Components/Fogo/Fogo';
-import Terra from './Components/Terra/Terra';
+import Agua from './Components/Primarios/Agua/Agua';
+import Ar from './Components/Primarios/Ar/Ar';
+import Fogo from './Components/Primarios/Fogo/Fogo';
+import Terra from './Components/Primarios/Terra/Terra';
 import './App.css';
 
 export default () => (
