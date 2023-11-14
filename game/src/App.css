@@ -30,31 +30,86 @@ header {
 }
 
 @keyframes rainbow {
-    0% {color: #ff0000;}
-    16% {color: #ffa500;}
-    32% {color: #ffff00;}
-    48% {color: #008000;}
-    64% {color: #0000ff;}
-    80% {color: #4b0082;}
-    100% {color: #ee82ee;}
+    0% {
+        color: #ff0000;
+    }
+
+    16% {
+        color: #ffa500;
+    }
+
+    32% {
+        color: #ffff00;
+    }
+
+    48% {
+        color: #008000;
+    }
+
+    64% {
+        color: #0000ff;
+    }
+
+    80% {
+        color: #4b0082;
+    }
+
+    100% {
+        color: #ee82ee;
+    }
 }
 
 .Letra {
     animation: rainbow 4s infinite;
 }
 
-.Letra:nth-child(1) { animation-delay: 0s; }
-.Letra:nth-child(2) { animation-delay: 0.5s; }
-.Letra:nth-child(3) { animation-delay: 1s; }
-.Letra:nth-child(4) { animation-delay: 1.5s; }
-.Letra:nth-child(5) { animation-delay: 2s; }
-.Letra:nth-child(6) { animation-delay: 2.5s; }
-.Letra:nth-child(7) { animation-delay: 3s; }
-.Letra:nth-child(8) { animation-delay: 3.5s; }
-.Letra:nth-child(9) { animation-delay: 4s; }
-.Letra:nth-child(10) { animation-delay: 4.5s; }
-.Letra:nth-child(11) { animation-delay: 5s; }
-.Letra:nth-child(12) { animation-delay: 5.5s; }
+.Letra:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.Letra:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.Letra:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.Letra:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.Letra:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.Letra:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+.Letra:nth-child(7) {
+    animation-delay: 3s;
+}
+
+.Letra:nth-child(8) {
+    animation-delay: 3.5s;
+}
+
+.Letra:nth-child(9) {
+    animation-delay: 4s;
+}
+
+.Letra:nth-child(10) {
+    animation-delay: 4.5s;
+}
+
+.Letra:nth-child(11) {
+    animation-delay: 5s;
+}
+
+.Letra:nth-child(12) {
+    animation-delay: 5.5s;
+}
 
 ul {
     list-style: none;
