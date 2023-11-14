@@ -87,28 +87,24 @@ header {
     animation-delay: 2.5s;
 }
 
-.Letra:nth-child(7) {
+.Letra:nth-child(8) {
     animation-delay: 3s;
 }
 
-.Letra:nth-child(8) {
+.Letra:nth-child(9) {
     animation-delay: 3.5s;
 }
 
-.Letra:nth-child(9) {
+.Letra:nth-child(10) {
     animation-delay: 4s;
 }
 
-.Letra:nth-child(10) {
+.Letra:nth-child(11) {
     animation-delay: 4.5s;
 }
 
-.Letra:nth-child(11) {
-    animation-delay: 5s;
-}
-
 .Letra:nth-child(12) {
-    animation-delay: 5.5s;
+    animation-delay: 5s;
 }
 
 ul {
