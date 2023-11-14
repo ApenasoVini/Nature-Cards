@@ -3,7 +3,7 @@ import Agua from './Components/Primarios/Agua/Agua';
 import Ar from './Components/Primarios/Ar/Ar';
 import Fogo from './Components/Primarios/Fogo/Fogo';
 import Terra from './Components/Primarios/Terra/Terra';
-import Logo from "./logo.svg";
+import Logo from './logo.svg';
 import './App.css';
 
 export default () => (
@@ -15,10 +15,10 @@ export default () => (
       </div>
       <ul>
         <li className="Topics"><a href="#aboutUs">Sobre o App</a></li>
-        <li className="Topics"><a href="#">Cartas</a></li>
         <li className="Topics"><a href="#login">Criador</a></li>
       </ul>
     </header>
+
     <main>
       <div className="Cards">
         <Agua />

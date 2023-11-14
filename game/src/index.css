@@ -5,6 +5,8 @@
 }
 
 body {
+    background-image: url("./background.svg");
+    background-size: cover;
     font-family: Arial;
     background-color: #ccc;
 }
