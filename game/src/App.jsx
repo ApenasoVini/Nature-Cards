@@ -42,13 +42,7 @@ export default () => (
       </div>
     </main>
 
-    <section id="Sobre">
-      <div className="Sobre-container">
-      </div>
-    </section>
-
     <footer>
-      <h2>Foda</h2>
     </footer>
   </div>
 );
