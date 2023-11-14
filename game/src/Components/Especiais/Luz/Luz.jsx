@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { ReactComponent as Icon } from "./ar.svg";
-import "./Ar.css"
+import { ReactComponent as Icon } from "./luz.svg";
+import "./Luz.css"
 
-const Ar = () => {
+const Luz = () => {
     const [frente, mudarLado] = useState(true);
 
     const clique = () => {
@@ -10,10 +10,10 @@ const Ar = () => {
     };
 
     return (
-        <div className="Ar" onClick={clique}>
+        <div className="Luz" onClick={clique}>
             {frente ? (
                 <React.Fragment>
-                    <p className="Nome">Ar</p>
+                    <p className="Nome">Luz</p>
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
@@ -23,4 +23,4 @@ const Ar = () => {
     );
 };
 
-export default Ar;
+export default Luz;

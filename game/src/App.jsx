@@ -3,6 +3,13 @@ import Agua from './Components/Primarios/Agua/Agua';
 import Ar from './Components/Primarios/Ar/Ar';
 import Fogo from './Components/Primarios/Fogo/Fogo';
 import Terra from './Components/Primarios/Terra/Terra';
+import Cristal from './Components/Secundarios/Cristal/Cristal'
+import Gelo from './Components/Secundarios/Gelo/Gelo'
+import Lava from './Components/Secundarios/Lava/Lava'
+import Raio from './Components/Secundarios/Raio/Raio'
+import Verde from './Components/Especiais/Verde/Verde'
+import Luz from './Components/Especiais/Luz/Luz'
+import Trevas from './Components/Especiais/Trevas/Trevas'
 import Logo from './logo.svg';
 import './App.css';
 
@@ -38,6 +45,13 @@ export default () => (
         <Ar />
         <Fogo />
         <Terra />
+        <Raio />
+        <Lava />
+        <Gelo />
+        <Cristal />
+        <Verde />
+        <Luz />
+        <Trevas />
       </div>
     </main>
   </div>
