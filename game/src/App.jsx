@@ -10,11 +10,11 @@ export default () => (
     <header>
       <h1>Nature Cards</h1>
     </header>
-    <div className="Cards">
-      <Agua />
-      <Ar />
-      <Fogo />
-      <Terra />
-    </div>
+      <div className="Cards">
+        <Agua />
+        <Ar />
+        <Fogo />
+        <Terra />
+      </div>
   </div>
 );

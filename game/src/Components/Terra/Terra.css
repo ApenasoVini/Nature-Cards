@@ -17,3 +17,11 @@
 .Terra p {
     margin-bottom: 5px;
 }
+
+@media (width < 920px) {
+    .Terra {
+        height: 30vh;
+        min-width: 15vw;
+        margin-top: 5px;
+    }
+}

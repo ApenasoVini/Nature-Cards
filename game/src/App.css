@@ -14,3 +14,12 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+@media (width < 920px) {
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        transition: all 0.4s;
+    }
+}
