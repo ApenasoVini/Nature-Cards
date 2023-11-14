@@ -18,20 +18,7 @@ export default () => (
     <header>
       <div className="Logo">
         <img src={Logo} alt="logo" />
-        <p>
-          <span class="Letra">N</span>
-          <span class="Letra">A</span>
-          <span class="Letra">T</span>
-          <span class="Letra">U</span>
-          <span class="Letra">R</span>
-          <span class="Letra">E</span>
-          <span class="Letra"> </span>
-          <span class="Letra">C</span>
-          <span class="Letra">A</span>
-          <span class="Letra">R</span>
-          <span class="Letra">D</span>
-          <span class="Letra">S</span>
-        </p>
+        <p>Nature Cards</p>
       </div>
       <ul>
         <li className="Topics"><a href="#Sobre">Sobre o App</a></li>

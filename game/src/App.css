@@ -27,84 +27,23 @@ header {
     margin-left: 5px;
     margin-top: 13px;
     font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to left, #fff, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+    background-clip: text;
+    color: transparent;
+    animation: rainbowText 20s infinite linear;
+    font-size: 100%;
+    background-size: 1400% 100%; 
 }
 
-@keyframes rainbow {
+@keyframes rainbowText {
     0% {
-        color: #ff0000;
-    }
-
-    16% {
-        color: #ffa500;
-    }
-
-    32% {
-        color: #ffff00;
-    }
-
-    48% {
-        color: #008000;
-    }
-
-    64% {
-        color: #0000ff;
-    }
-
-    80% {
-        color: #4b0082;
+        background-position: 100% 0;
     }
 
     100% {
-        color: #ee82ee;
+        background-position: -100% 0;
     }
-}
-
-.Letra {
-    animation: rainbow 4s infinite;
-}
-
-.Letra:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.Letra:nth-child(2) {
-    animation-delay: 0.5s;
-}
-
-.Letra:nth-child(3) {
-    animation-delay: 1s;
-}
-
-.Letra:nth-child(4) {
-    animation-delay: 1.5s;
-}
-
-.Letra:nth-child(5) {
-    animation-delay: 2s;
-}
-
-.Letra:nth-child(6) {
-    animation-delay: 2.5s;
-}
-
-.Letra:nth-child(8) {
-    animation-delay: 3s;
-}
-
-.Letra:nth-child(9) {
-    animation-delay: 3.5s;
-}
-
-.Letra:nth-child(10) {
-    animation-delay: 4s;
-}
-
-.Letra:nth-child(11) {
-    animation-delay: 4.5s;
-}
-
-.Letra:nth-child(12) {
-    animation-delay: 5s;
 }
 
 ul {
@@ -149,7 +88,6 @@ ul {
     height: 60vh;
 }
 
-
 footer {
     width: 100%;
     height: 50vh;
@@ -157,38 +95,6 @@ footer {
     align-items: flex-end;
     position: relative;
     padding: 15px;
-    background-color: #fff;
-    animation: rainbow 15s infinite;
-}
-
-@keyframes rainbow {
-    0% {
-        background-color: #ff0000;
-    }
-
-    16% {
-        background-color: #ffa500;
-    }
-
-    32% {
-        background-color: #ffff00;
-    }
-
-    48% {
-        background-color: #008000;
-    }
-
-    64% {
-        background-color: #0000ff;
-    }
-
-    80% {
-        background-color: #4b0082;
-    }
-
-    100% {
-        background-color: #ee82ee;
-    }
 }
 
 @media (max-width: 920px) {
