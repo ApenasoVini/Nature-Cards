@@ -8,12 +8,13 @@
     border: 5px solid #0202ff;
     box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 1);
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 .Agua:hover {
     transform: scale(1.1);
 }
 
-.Agua p {
+.Agua .Nome {
     margin-bottom: 5px;
 }
