@@ -129,11 +129,66 @@ ul {
 }
 
 .Cards {
-    height: 260vh;
+    height: 220vh;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#Sobre {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.Sobre-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 85%;
+    height: 60vh;
+}
+
+
+footer {
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    align-items: flex-end;
+    position: relative;
+    padding: 15px;
+    background-color: #fff;
+    animation: rainbow 15s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: #ff0000;
+    }
+
+    16% {
+        background-color: #ffa500;
+    }
+
+    32% {
+        background-color: #ffff00;
+    }
+
+    48% {
+        background-color: #008000;
+    }
+
+    64% {
+        background-color: #0000ff;
+    }
+
+    80% {
+        background-color: #4b0082;
+    }
+
+    100% {
+        background-color: #ee82ee;
+    }
 }
 
 @media (max-width: 920px) {

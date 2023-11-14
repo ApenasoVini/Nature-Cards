@@ -34,8 +34,8 @@ export default () => (
         </p>
       </div>
       <ul>
-        <li className="Topics"><a href="#aboutUs">Sobre o App</a></li>
-        <li className="Topics"><a href="#login">Criador</a></li>
+        <li className="Topics"><a href="#Sobre">Sobre o App</a></li>
+        <li className="Topics"><a href="#Criador">Criador</a></li>
       </ul>
     </header>
 
@@ -54,5 +54,14 @@ export default () => (
         <Trevas />
       </div>
     </main>
+
+    <section id="Sobre">
+      <div className="Sobre-container">
+      </div>
+    </section>
+
+    <footer>
+      <h2>Foda</h2>
+    </footer>
   </div>
 );
