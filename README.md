@@ -1,6 +1,6 @@
 # 🀄 Nature Cards
 
-Este projeto foi feito com [<img alt="react" src="./react.png">](https://react.dev/learn)
+Este projeto foi feito com [<img src="https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>](https://react.dev/learn) 
 
 ## Como Abrir o Projeto
 
