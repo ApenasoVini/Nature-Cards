@@ -59,6 +59,7 @@ footer {
     bottom: 0;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
 }
 
 .Footer-Container {
@@ -71,7 +72,7 @@ footer {
 .Footer-Sociais {
     display: flex;
     gap: 2rem;
-    margin-top: 1rem;
+    margin-bottom: 4rem;
     flex-direction: column;
     justify-content: center;
 }
@@ -107,6 +108,14 @@ footer {
 #github {
     background-color: #000;
 
+}
+
+.Footer-App {
+    width: 40%;
+}
+
+.Footer-Criador {
+    width: 40%;
 }
 
 @media (max-width: 920px) {
