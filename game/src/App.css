@@ -2,7 +2,6 @@ header {
     width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: space-between;
     background-color: #000;
     color: #fff;
 }
@@ -33,7 +32,7 @@ header {
     color: transparent;
     animation: rainbowText 20s infinite linear;
     font-size: 100%;
-    background-size: 1400% 100%; 
+    background-size: 1400% 100%;
 }
 
 @keyframes rainbowText {
@@ -44,27 +43,6 @@ header {
     100% {
         background-position: -100% 0;
     }
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-.Topics {
-    margin-top: 20px;
-    margin-right: 70px;
-}
-
-.Topics a {
-    color: inherit;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    transition: ease 0.3s;
-}
-
-.Topics a:hover {
-    color: #00c200;
 }
 
 .Cards {
@@ -79,11 +57,56 @@ footer {
     width: 100%;
     height: 50vh;
     bottom: 0;
-    margin-top: 10px;
-    align-items: flex-end;
-    position: relative;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Footer-Container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.Footer-Sociais {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer-Sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.Footer-Sociais a:hover {
+    opacity: 0.8;
+}
+
+.Footer-Sociais a i {
+    font-size: 1.75rem;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#linkedin {
+    background-color: #4267b3;
+}
+
+#github {
+    background-color: #000;
+
 }
 
 @media (max-width: 920px) {
