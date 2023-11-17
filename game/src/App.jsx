@@ -42,13 +42,13 @@ const App = () => {
       <footer>
         <div className='Footer-Container'>
           <div className='Footer-Sociais'>
-            <a href='https://www.instagram.com/sf.vini/' className='footer-link' id='instagram'>
+            <a href='https://www.instagram.com/sf.vini/' target='_blank' className='footer-link' id='instagram'>
               <i className='fa-brands fa-instagram'></i>
             </a>
-            <a href='https://github.com/ApenasoVini' className='footer-link' id='github'>
+            <a href='https://github.com/ApenasoVini' target='_blank' className='footer-link' id='github'>
               <i className='fa-brands fa-github'></i>
             </a>
-            <a href='https://www.linkedin.com/in/apenasovini/' className='footer-link' id='linkedin'>
+            <a href='https://www.linkedin.com/in/apenasovini/' target='_blank' className='footer-link' id='linkedin'>
               <i className='fa-brands fa-linkedin'></i>
             </a>
           </div>
