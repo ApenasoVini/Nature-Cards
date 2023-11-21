@@ -38,10 +38,11 @@
     margin: 10px;
 }
 
-@media (width < 920px) {
+@media (max-width: 476px) {
     .Raio {
-        height: 55vh;
-        min-width: 40vw;
-        margin-top: 5px;
+        height: 65vh;
+        width: 50vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
