@@ -17,7 +17,8 @@ const Terra = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: A terra pode ser moldada em projéteis sólidos ou terremotos, causando dano físico e desestabilizando os oponentes
+                    Defesa: A capacidade de invocar rochas e criar barreiras sólidas oferece uma defesa robusta contra ataques diretos</p>
             )}
         </div>
     );

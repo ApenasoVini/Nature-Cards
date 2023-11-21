@@ -17,7 +17,8 @@ const Lava = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: O fluxo de lava derrete tudo em seu caminho, causando dano contínuo e infligindo queimaduras
+                    Defesa: A lava pode ser solidificada em escudos resistentes, proporcionando uma defesa impenetrável contra ataques físicos</p>
             )}
         </div>
     );

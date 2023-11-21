@@ -17,7 +17,8 @@ const Raio = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: Descargas elétricas rápidas e devastadoras, capazes de atingir alvos com precisão e velocidade
+                    Defesa: A eletricidade pode ser canalizada para criar escudos elétricos que absorvem e dissipam ataques inimigos</p>
             )}
         </div>
     );

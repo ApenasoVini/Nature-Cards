@@ -17,7 +17,8 @@ const Cristal = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: Energias podem ser canalizadas através dos cristais, criando ataques poderosos de luz
+                    Defesa: A habilidade de criar escudos cristalinos fornece uma defesa durável contra ataques mágicos e físicos</p>
             )}
         </div>
     );

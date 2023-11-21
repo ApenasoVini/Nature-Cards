@@ -17,7 +17,8 @@ const Ar = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: O ar pode criar tornados, cortando tudo em seu caminho, ou ser concentrado em rajadas rápidas e precisas
+                    Defesa: A habilidade de controlar correntes de ar permite evasões ágeis, e a criação de barreiras invisíveis oferece proteção contra ataques diretos</p>
             )}
         </div>
     );

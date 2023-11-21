@@ -17,7 +17,8 @@ const Gelo = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: O gelo pode criar projéteis afiados e escorregadios, causando dano direto e reduzindo a mobilidade do oponente
+                    Defesa: Barreiras de gelo sólido podem ser erguidas para bloquear ataques e criar zonas defensivas</p>
             )}
         </div>
     );

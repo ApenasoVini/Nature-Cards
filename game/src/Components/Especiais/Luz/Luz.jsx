@@ -17,7 +17,8 @@ const Luz = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: A luz pode ser canalizada para cegar adversários, quebrar energias negativas e curar de forma poderosa
+                    Defesa: A luz pode ser utilizada para criar escudos resplandecentes que refletem ataques e dissipam as trevas ao seu redor</p>
             )}
         </div>
     );

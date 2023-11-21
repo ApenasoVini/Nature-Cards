@@ -17,7 +17,8 @@ const Verde = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: A energia verde pode ser canalizada para curar aliados, fortalecer plantas para ataques surpresa ou manipular o ambiente natural
+                    Defesa: A conexão com a natureza permite a criação de barreiras naturais e a manipulação de plantas para bloquear ataques</p>
             )}
         </div>
     );

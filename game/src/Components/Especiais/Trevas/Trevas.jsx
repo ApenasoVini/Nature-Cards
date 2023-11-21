@@ -17,7 +17,9 @@ const Trevas = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Texto</p>
+                <p className="Descricao">Ataque: As trevas podem ser utilizadas para criar sombras traiçoeiras e drenar energia vital
+                    Defesa: A capacidade de se fundir nas sombras oferece evasão, enquanto barreiras de escuridão podem proteger contra ataques diretos
+                </p>
             )}
         </div>
     );
