@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Agua from './Components/Primarios/Agua/Agua';
 import Ar from './Components/Primarios/Ar/Ar';
 import Fogo from './Components/Primarios/Fogo/Fogo';
