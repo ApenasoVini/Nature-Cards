@@ -12,7 +12,7 @@ Este projeto foi feito com [<img src="https://img.shields.io/badge/-React-20232A
 
 ## Sobre o Projeto
 
-### Esse projeto possui 12 cartas iniciais:
+### Esse projeto possui 11 cartas iniciais:
 
 ## `Fogo` 🔥
 ## `Água` 💧
