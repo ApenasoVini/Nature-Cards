@@ -17,6 +17,25 @@
 
 .Raio .Nome {
     margin-bottom: 5px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Raio .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Raio .Info {
+    color: #000;
+}
+
+.Raio .Descricao {
+    letter-spacing: 2px;
+    color: #000000;
+    margin: 10px;
 }
 
 @media (width < 920px) {

@@ -14,8 +14,27 @@
     transform: scale(1.1);
 }
 
-.Ar p {
+.Ar .Nome {
     margin-bottom: 5px;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Ar .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Ar .Info {
+    color: #707070;
+}
+
+.Ar .Descricao {
+    letter-spacing: 2px;
+    color: #707070;
+    margin: 10px;
 }
 
 @media (width < 920px) {

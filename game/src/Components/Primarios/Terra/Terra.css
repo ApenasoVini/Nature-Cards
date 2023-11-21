@@ -14,8 +14,27 @@
     transform: scale(1.1);
 }
 
-.Terra p {
+.Terra .Nome {
     margin-bottom: 5px;
+    color: #311c00;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Terra .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Terra .Info {
+    color: #311c00;
+}
+
+.Terra .Descricao {
+    letter-spacing: 2px;
+    color: #311c00;
+    margin: 10px;
 }
 
 @media (width < 920px) {

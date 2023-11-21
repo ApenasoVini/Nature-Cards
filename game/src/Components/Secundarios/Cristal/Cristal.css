@@ -15,8 +15,27 @@
     transform: scale(1.1);
 }
 
+.Cristal .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
 .Cristal .Nome {
     margin-bottom: 5px;
+    color: #f262ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Cristal .Info {
+    color: #f262ff;
+}
+
+.Cristal .Descricao {
+    letter-spacing: 2px;
+    color: #f262ff;    
+    margin: 10px;
 }
 
 @media (width < 920px) {

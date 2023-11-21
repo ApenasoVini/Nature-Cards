@@ -55,19 +55,18 @@ const App = () => {
           <div className='Footer-App'>
             <h1>Sobre o App</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Bem-vindo ao Nature Cards, o aplicativo que proporciona uma experiência interativa única com elementos naturais. Desenvolvido com React, o Nature Cards apresenta cartas visualmente atraentes, cada uma representando um elemento da natureza. Com um design responsivo, o aplicativo oferece uma navegação suave em qualquer dispositivo.
             </p>
           </div>
           <div className='Footer-Criador'>
             <h1>Sobre Mim</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+              Eu sou o Vinícius, o criador do Nature Cards. Estudo desenvolvimento de sistemas e gosto bastante de jogos. O Nature Cards é um projeto que mistura meu conhecimento em desenvolvimento com meu gosto por jogos, criando uma experiência interativa para explorar elementos naturais. Espero que gostem!</p>
           </div>
         </div>
         <div className='Footer-Copyright'>
-            <p>&copy; 2023 Nature Cards. Todos os direitos reservados.</p>
-          </div>
+          <p>&copy; 2023 Nature Cards. Todos os direitos reservados.</p>
+        </div>
       </footer>
     </div>
   );

@@ -17,8 +17,10 @@ const Fogo = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Ataque: O fogo lança chamas intensas que queimam seus adversários, causando danos contínuos ao longo do tempo
-                    Defesa: A intensidade das chamas cria uma barreira ardente, dificultando ataques diretos e proporcionando uma zona de controle</p>
+                <p>
+                    <b className="Info">Ataque</b> <p className="Descricao">O fogo lança chamas intensas que queimam seus adversários, causando danos contínuos ao longo do tempo</p>
+                    <b className="Info">Defesa</b> <p className="Descricao">A intensidade das chamas cria uma barreira ardente, dificultando ataques diretos e proporcionando uma zona de controle</p>
+                </p>
             )}
         </div>
     );

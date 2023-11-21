@@ -17,6 +17,25 @@
 
 .Luz .Nome {
     margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Luz .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Luz .Info {
+    color: #fff;
+}
+
+.Luz .Descricao {
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 10px;
 }
 
 @media (width < 920px) {

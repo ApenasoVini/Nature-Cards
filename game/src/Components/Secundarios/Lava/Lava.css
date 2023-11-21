@@ -17,6 +17,25 @@
 
 .Lava .Nome {
     margin-bottom: 5px;
+    color: #a00f0f;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Lava .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Lava .Info {
+    color: #a00f0f;
+}
+
+.Lava .Descricao {
+    letter-spacing: 2px;
+    color: #a00f0f;
+    margin: 10px;
 }
 
 @media (width < 920px) {

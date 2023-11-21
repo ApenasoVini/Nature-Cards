@@ -17,11 +17,12 @@ const Agua = () => {
                     <Icon className="Icon" />
                 </React.Fragment>
             ) : (
-                <p className="Descricao">Ataque: A água pode se transformar em lâminas afiadas, criando ataques cortantes, ou em ondas poderosas para varrer adversários
-                    Defesa: A fluidez da água permite esquivas e a formação de barreiras que absorvem e dissipam ataques
+                <p>
+                    <b className="Info">Ataque</b> <p className="Descricao"> A água pode se transformar em lâminas afiadas, criando ataques cortantes, ou em ondas poderosas para varrer adversários </p>
+                    <b className="Info">Defesa</b> <p className="Descricao"> A fluidez da água permite esquivas e a formação de barreiras que absorvem e dissipam ataques</p>
                 </p>
             )}
-        </div>
+        </div >
     );
 };
 

@@ -17,6 +17,25 @@
 
 .Verde .Nome {
     margin-bottom: 5px;
+    color: #5eff00;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Verde .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Verde .Info {
+    color: #5eff00;
+}
+
+.Verde .Descricao {
+    letter-spacing: 2px;
+    color: #5eff00;
+    margin: 10px;
 }
 
 @media (width < 920px) {

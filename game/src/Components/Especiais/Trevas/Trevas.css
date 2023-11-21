@@ -17,6 +17,25 @@
 
 .Trevas .Nome {
     margin-bottom: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Trevas .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Trevas .Info {
+    color: #000;
+}
+
+.Trevas .Descricao {
+    letter-spacing: 2px;
+    color: #000;
+    margin: 10px;
 }
 
 @media (width < 920px) {

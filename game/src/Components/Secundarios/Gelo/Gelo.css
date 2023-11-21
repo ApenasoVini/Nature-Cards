@@ -17,6 +17,25 @@
 
 .Gelo .Nome {
     margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.Gelo .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Gelo .Info {
+    color: #fff;
+}
+
+.Gelo .Descricao {
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 10px;
 }
 
 @media (width < 920px) {

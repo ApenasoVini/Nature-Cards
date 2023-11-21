@@ -23,10 +23,21 @@
     font-size: x-large;
 }
 
+.Agua .Icon {
+    margin-top: 25px;
+    transform: scale(1.5);
+}
+
+.Agua .Info {
+    color: #fff;
+}
+
 .Agua .Descricao {
     letter-spacing: 2px;
     color: #fff;
+    margin: 10px;
 }
+
 
 @media (width < 920px) {
     .Agua {
