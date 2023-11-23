@@ -6,7 +6,7 @@ Este projeto foi feito com [<img src="https://img.shields.io/badge/-React-20232A
 
 <ol>
 <li>Copie o link do repositório</li>
-<li>Abra o terminal e clone a pasta no <i>VSCode</i></li>
+<li>Abra o terminal, clone a pasta no <i>VSCode</i> e dê o comando <b>cd game</b></li>
 <li>Dê o comando <b>npm i</b> e <b>npm start</b></li>
 </ol>
 
