@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { ReactComponent as Icon } from "./terra.svg";
-import "./Terra.css"
+import { ReactComponent as Icon } from "./assets/img/terra.svg";
+import "./assets/css/Cards.css"
 
 const Terra = () => {
     const [frente, mudarLado] = useState(true);
@@ -10,7 +10,7 @@ const Terra = () => {
     };
 
     return (
-        <div className="Terra" onClick={clique}>
+        <div className="Carta" style={{ borderColor: "#327700", backgroundColor: "#74553d", color: "#311c00" }} onClick={clique}>
             {frente ? (
                 <React.Fragment>
                     <p className="Nome">Terra</p>

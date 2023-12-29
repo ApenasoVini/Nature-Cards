@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("./background.svg");
+    background-image: url("./img/background.svg");
     background-size: cover;
     font-family: 'Lato';
 }
