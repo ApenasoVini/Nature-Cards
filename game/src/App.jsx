@@ -10,7 +10,7 @@ import Raio from './Cards/Raio';
 import Verde from './Cards/Verde';
 import Luz from './Cards/Luz';
 import Trevas from './Cards/Trevas';
-import Logo from '../src/img/logo.svg';
+import Logo from './img/logo.svg';
 import './App.css';
 
 const App = () => {
