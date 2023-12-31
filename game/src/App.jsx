@@ -55,7 +55,7 @@ const App = () => {
           <div className='Footer-App'>
             <h1>Sobre o App</h1>
             <p>
-              Bem-vindo ao Nature Cards, o aplicativo que proporciona uma experiência interativa única com elementos naturais. Desenvolvido com React, o Nature Cards apresenta cartas visualmente atraentes, cada uma representando um elemento da natureza. Com um design responsivo, o aplicativo oferece uma navegação suave em qualquer dispositivo.
+              Bem-vindo ao Nature Cards, desenvolvido com React, ele apresenta cartas representando um elemento da natureza. Com um design responsivo, o aplicativo oferece uma navegação tranquila em qualquer dispositivo.
             </p>
           </div>
           <div className='Footer-Criador'>
