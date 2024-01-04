@@ -31,11 +31,9 @@
     margin: 10px;
 }
 
-@media (max-width: 476px) {
+@media (max-width: 1115px) {
     .Carta {
-        height: 70vh;
-        width: 50vw;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        height: 75vh;
+        width: 30vw;
     }
 }
