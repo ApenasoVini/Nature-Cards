@@ -29,3 +29,6 @@ Este projeto foi feito com [<img src="https://img.shields.io/badge/-React-20232A
 <div align="center">
 <img alt="logo" src="./logo.png">
 </div>
+
+## Licença
+[MIT](https://opensource.org/license/mit/)
